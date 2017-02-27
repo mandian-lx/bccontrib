@@ -15,10 +15,6 @@ BuildRequires:  mvn(junit:junit)
 BuildRequires:  mvn(org.apache.felix:maven-bundle-plugin)
 BuildRequires:  mvn(org.bouncycastle:bcprov-jdk15on)
 
-Requires:	java-headless
-Requires:	javapackages-tools
-Requires:	bouncycastle
-
 %description
 This project contains the Skein hash function, the Threefish encryption
 function and the Fortuna random generator as a Java implementation. The API
