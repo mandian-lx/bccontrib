@@ -1,3 +1,5 @@
+%{?_javapackages_macros:%_javapackages_macros}
+
 Summary:	Some cryptographic functions, in Java compatible to BouncyCastle
 Name:		bccontrib
 Version:	1.0
